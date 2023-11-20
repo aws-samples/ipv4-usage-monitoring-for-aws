@@ -2,6 +2,10 @@
 
 This script allows customers to iterate through all regions and all accounts in an organization to enumerate all public IPs and flag certain IPs that may be unnecessary for further investigation. 
 
+### Announcements
+ - Amazon VPC IPAM now includes native functionality to report on IPs across an entire organization. The difference between IPAM and this script is this script will report on probability that an IP is no longer needed based on attributes listed below. If you are just looking to report on what IPs are allocated to your accounts, it is recommended to use VPC IPAM instead of this script. See the announcement for VPC IPAM [here](https://aws.amazon.com/about-aws/whats-new/2023/11/amazon-vpc-address-manager-free-features-tier/).
+
+
 ## Requirements
 
  - Linux or Mac
